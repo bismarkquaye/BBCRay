@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.headicon {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.bbc {
+    height: 70px;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    color: white;
+}
+
+.bbc {
+    margin-right: 30px;
+}
+
+.person {
+    color: white;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+#navlink {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    /* border-bottom: 2px solid white; */
+}
+
+#navlink:hover {
+    /* padding-bottom: 15px; */
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    border-bottom-color: yellow;
+    height: 30px;
+    width: fit-content;
+}
+
+.search-container {
+    position: relative;
+    background-color: #888888;
+    border-radius: 10px;
+
+}
+
+#search {
+    background-color: #888888;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.ellip {
+    height: 30px;
+    width: 40px;
+}
+
+.icon-search {
+    position: absolute;
+    top: 30%;
+    transform: translateX(50%);
+    width: 20px;
+    height: 20px;
+}
+
+::placeholder {
+    color: white;
+    padding-left: 15%;
+}
+
+main {
+    padding: 0 5%;
+}
+
+.headlines {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    width: 80%;
+    height: 20%;
+}
+
+.main-img {
+    height: 100%;
+}
+
+.card1 {
+    grid-area: 1/2/3/3;
+    height: 400px;
+}
+
+.card2 {
+    grid-area: 1/3/2/4;
+}
+
+.card3 {
+    grid-area: 1/4/2/5;
+}
+
+.card4 {
+    grid-area: 2/3/3/4;
+}
+
+.card5 {
+    grid-area: 2/4/3/5;
+}
+
+.container1 {
+    position: relative;
+}
+
+.big-img {
+    width: 300px;
+    height: 100%;
+}
+
+.img-text1 {
+    position: absolute;
+    top: 80%;
+    left:30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.img-text1 h4,
+.img-text1 p,
+.img-text1 h5,
+.img-text2 h4,
+.img-text2 p,
+.img-text2 h5 {
+    text-align: left;
+}
+
+.container2 {
+    position: relative;
+}
+
+.img-text2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.container1 {
+    position: relative;
+}
+
+.container1 .main-img {
+    position: relative;
+}
+
+.main-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 5);
+    /* Adjust the opacity as needed */
+    z-index: 1;
+}

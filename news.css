@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding: 0;
+}
+header{
+    background-color: #b80000;;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+h1{
+    color: white;
+    margin-top:15px;
+}
+.navigation{
+    display: flex;
+    gap:20px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-top:0;
+    padding: 0;
+}
+#navlink{
+    text-decoration: none;
+    color: white;
+}
