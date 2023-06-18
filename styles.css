@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+section{
+  display: grid;
+  grid-template-columns:repeat(6,1fr);
+  grid-template-rows:repeat(5,1fr) ;
+  height: 400px;
+  width: 800px;
+  background-color: grey;
+}
+
+#one{
+    grid-area: 1/1/2/2;
+    background-color: #Ca316b;
+}
+#two{
+    grid-area: 1/2/3/4;
+    background-color: #CC319E;
+}
+#three{
+    grid-area: 1/4/5/5;
+    background-color: #EE6E62;
+    width: 300px;
+}
+#four{
+    grid-area: 1/5/2/6;
+    background-color: #EFC438 ;
+}
+#five{
+    grid-area: 2/1/3/2;
+    background-color: #528D45;
+}
+#six{
+    grid-area: 2/5/3/6;
+    background-color: #257D88;
+}
+#sev{
+    grid-area:3/1/4/2;
+    background-color:#799927 ;
+}
+#eit{
+    grid-area:3/2/4/3;
+    background-color: #488858;
+    width: 90px;
+}
+#nine{
+    grid-area:3/3/4/4;
+    background-color:#2FCAC3;
+    width: 140px;
+}
+#ten{
+    grid-area: 3/5/4/6;
+    background-color: #30C98F;
+}
+#elv{
+    grid-area: 4/1/5/4;
+    background-color:#563F79;
+
+}
+#twlv{
+    grid-area: 4/5/5/6;
+    background-color: #DE212E;
+}
